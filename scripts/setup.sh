@@ -1,5 +1,5 @@
 #!/bin/bash
-app_path=pepper_wikipedia
+app_path=pepper_qa
 
 virtualenv venv
 

@@ -1,0 +1,15 @@
+topic: ~qa()
+language: jpj
+
+dynamic: answer1
+dynamic: answer2
+#dynamic: answer3
+#dynamic: answer4
+
+proposal: %reply1 1ですね $onStopped=1
+proposal: %reply2 2ですね $onStopped=1
+proposal: %reply3 3ですね $onStopped=1
+proposal: %reply4 4ですね $onStopped=1
+
+u:(~answer1) $your_answer_no=1 ^goto(reply1)
+u:(~answer2) $your_answer_no=2 ^goto(reply2)

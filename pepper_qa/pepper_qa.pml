@@ -2,9 +2,15 @@
 <Package name="pepper_qa" format_version="4">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
-        <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="." xar="behavior.xar" />
     </BehaviorDescriptions>
-    <Dialogs />
-    <Resources />
-    <Topics />
+    <Dialogs>
+        <Dialog name="qa" src="qa/qa.dlg" />
+    </Dialogs>
+    <Resources>
+        <File name="sample" src="html/sample.jpg" />
+    </Resources>
+    <Topics>
+        <Topic name="qa_jpj" src="qa/qa_jpj.top" topicName="qa" language="ja_JP" />
+    </Topics>
 </Package>
